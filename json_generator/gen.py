@@ -12,11 +12,11 @@ import json
 #          "education": education,
 #          "certification": certification,
 #          "major": major,
-#          "disability": disability,
+#          "disability": boolean,
 #          "ethnicity": ethnicity,
 #          "age": age,
 #          "marital_status": marital_status,
-#          "veteran_status": veteran_status,
+#          "veteran": boolean,
 #          "job_title": job_title,
 #          "num_of_reports": num_of_reports,
 #          "shifts": shifts
@@ -36,10 +36,10 @@ educations = ['GED','AAS', 'BS','MS','PHD']
 certifications_range = [0, 50]
 races = ["White", "Black", "AmericanIndian/AlaskanNative", "Asian"]
 ethnicities = ["Non-Hispanic", "Hispanic"]
-disability_status = ["disabled", "not-disabled", "unspecified"]
+disability_status = ["true", "false"]
 age_range = [16, 80]
 marital_status_values = ["unspecified", "single", "widowed", "separated", "divorced"]
-veteran_status_values = ["unspecified", "veteran", "non-veteran"]
+veteran_status_values = ["true", "false"]
 majors = ["Aeronautical Engineering", "Civil Engineering","Mechanical Engineering",
           "Aerospace Engineering", "Computer Engineering", "Meteorology/Atmospheric Sciences",
           "Architectural Engineering", "Computer Science", "Nuclear Engineering",
@@ -70,7 +70,7 @@ locations = ["Southwest", "Texas East", "Northwest/Northern Border", "West Coast
 
 
 content = list()
-for i in xrange(1000):
+for i in xrange(100):
     bs = randint(base_salary_range[0]* 1000, base_salary_range[1]* 1000)
     bonus = randint(bonus_range[0] * 1000, bonus_range[1]* 1000)
     company = companies[randint(0, len(companies)-1)]
@@ -113,7 +113,6 @@ for i in xrange(1000):
         "shifts": shifts
 
     })
-    
+
 with open('data.json', 'w') as outfile:
     json.dump(content, outfile, indent=4)
-    
