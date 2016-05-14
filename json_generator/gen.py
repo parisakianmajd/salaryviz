@@ -24,8 +24,10 @@ import json
 #          }
 
 #companies = list(string.ascii_lowercase)
-companies = ["Apple Inc.","Samsung Electronics","Foxconn","Amazon.com","HP Inc.", "Microsoft","IBM","Alphabet Inc.",
-             "Sony","Panasonic","Huawei","Dell","Toshiba", "Intel", "Cisco", "eBay"]
+companies = ["Apple Inc.", "Samsung Electronics", "Foxconn",
+             "Amazon.com","HP Inc.", "Microsoft","IBM", "Alphabet Inc.",
+             "Sony", "Panasonic","Huawei","Dell",
+             "Toshiba", "Intel", "Cisco", "eBay"]
 base_salary_range = [70, 200]
 bonus_range = [10, 50]
 compensation_range = [10, 50]
