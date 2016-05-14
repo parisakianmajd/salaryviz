@@ -114,6 +114,6 @@ for i in xrange(1000):
         
     })
     
-with open('data.txt', 'w') as outfile:
-    json.dump(content, outfile)
+with open('data.json', 'w') as outfile:
+    json.dump(content, outfile, indent=4)
     
