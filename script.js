@@ -1,3 +1,5 @@
 $(function () {
-  console.log('hello from jquery');
+  var json = require('./tempData.json');
+
+  console.log('json', json);
 });

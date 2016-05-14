@@ -1,0 +1,57 @@
+{
+  "id1": {
+    "salary": "100000",
+    "age": "27",
+    "gender": "male",
+    "veteran": "true",
+    "yearsInField": "2",
+    "educationLevel": "BS",
+    "undergradYear": "2014",
+    "disability": "no",
+    "location": "San Francisco Bay Area"
+  },
+  "id2": {
+    "salary": "100000",
+    "age": "27",
+    "gender": "male",
+    "veteran": "true",
+    "yearsInField": "2",
+    "educationLevel": "BS",
+    "undergradYear": "2014",
+    "disability": "no",
+    "location": "San Francisco Bay Area"
+  },
+  "id3": {
+    "salary": "100000",
+    "age": "27",
+    "gender": "male",
+    "veteran": "true",
+    "yearsInField": "2",
+    "educationLevel": "BS",
+    "undergradYear": "2014",
+    "disability": "no",
+    "location": "San Francisco Bay Area"
+  },
+  "id4": {
+    "salary": "100000",
+    "age": "27",
+    "gender": "male",
+    "veteran": "true",
+    "yearsInField": "2",
+    "educationLevel": "BS",
+    "undergradYear": "2014",
+    "disability": "no",
+    "location": "San Francisco Bay Area"
+  },
+  "id5": {
+    "salary": "100000",
+    "age": "27",
+    "gender": "male",
+    "veteran": "true",
+    "yearsInField": "2",
+    "educationLevel": "BS",
+    "undergradYear": "2014",
+    "disability": "no",
+    "location": "San Francisco Bay Area"
+  }
+}
