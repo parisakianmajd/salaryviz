@@ -110,10 +110,9 @@ for i in xrange(1000):
         "veteran_status": veteran_status,
         "job_title": job_title,
         "num_of_reports": num_of_reports,
-        "shifts": shifts        
-        
+        "shifts": shifts
+
     })
-    
-with open('data.txt', 'w') as outfile:
+
+with open('data.json', 'w') as outfile:
     json.dump(content, outfile)
-    
