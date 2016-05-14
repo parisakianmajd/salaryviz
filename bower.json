@@ -1,0 +1,21 @@
+{
+  "name": "salaryviz",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "Natalie Romano"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/parisakianmajd/salaryviz",
+  "moduleType": [],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6"
+  }
+}

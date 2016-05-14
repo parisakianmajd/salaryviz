@@ -1,0 +1,23 @@
+{
+  "name": "salaryviz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/parisakianmajd/salaryviz.git"
+  },
+  "author": "Natalie Romano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/parisakianmajd/salaryviz/issues"
+  },
+  "homepage": "https://github.com/parisakianmajd/salaryviz#readme",
+  "dependencies": {
+    "angular": "^1.5.5",
+    "d3": "^3.5.17"
+  }
+}
