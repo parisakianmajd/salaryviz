@@ -113,6 +113,7 @@ for i in xrange(1000):
         "shifts": shifts
 
     })
-
+    
 with open('data.json', 'w') as outfile:
-    json.dump(content, outfile)
+    json.dump(content, outfile, indent=4)
+    
