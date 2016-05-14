@@ -67,7 +67,7 @@ job_titles = ["Application Developer","Application Support Analyst","Application
 size_of_comapny_values = ["1-10", "10-100", "100-1000", "1000-5000", "5000-10000", "10000+"]
 locations = ["Southwest", "Texas East", "Northwest/Northern Border", "West Coast", "Midwest", "Northeast",
                  "Central/East Coast", "Southeast", "Florida", "Pacific ", "Alaska", " Hawaii"]
-
+uid = 1
 
 content = list()
 for i in xrange(100):
@@ -93,6 +93,7 @@ for i in xrange(100):
     location = locations[randint(0, len(locations)-1)]
 
     content.append({
+        "uuid": uid,
         "base_salary": bs,
         "bonus": bonus,
         "compensation": compensation,
@@ -113,6 +114,7 @@ for i in xrange(100):
         "shifts": shifts
 
     })
+    uid += 1
 
 with open('data.json', 'w') as outfile:
     json.dump(content, outfile, indent=4)
