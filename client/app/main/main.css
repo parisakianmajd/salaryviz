@@ -39,7 +39,6 @@ svg {
 
 .foreground path {
   fill: none;
-  stroke: steelblue;
   stroke-opacity: .7;
 }
 
@@ -59,4 +58,10 @@ svg {
 .axis text {
   text-shadow: 0 1px 0 #fff;
   cursor: move;
+}
+
+div#tableDiv {
+  height: 300px;
+  width: 100%;
+  overflow-y: auto;
 }
